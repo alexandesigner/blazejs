@@ -1,0 +1,22 @@
+<div id="top-nav">
+  <ul id="top-nav-links">
+    <% _.each(config.nav_links, function (href, name) { %>
+      <li><a href="<%- href %>"><%- name %></a></li>
+    <% }) %>
+  </ul>
+</div>
+
+<div id="site-nav">
+  <a class="logo" href="/"><img src="<%- config.logo.desktop %>" /></a>
+  <span class="sub-title"><%- config.subtitle %></span>
+  <% if (config.versions.length > 1) { %>
+    <select class="version-select">
+      <% config.versions.forEach(function (v) { %>
+        <option value="v<%- v %>"><%- v %></option>
+      <% }) %>
+    </select>
+  <% } %>
+  <% if (config.apis.swiftype) { %>
+    <input id="search-input" class="search-box st-default-search-input">
+  <% } %>
+</div>
