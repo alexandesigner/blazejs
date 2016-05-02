@@ -8,6 +8,12 @@ Blaze is a powerful library for creating user interfaces by writing reactive HTM
 
 Read more on the Blaze [project page](http://www.meteor.com/blaze).
 
+## Quick Start
+
+Blaze is a Meteor-only package for now. Sooner we will have Blaze on npm so you can use it in your stack.
+
+A new Meteor project has Blaze included.
+
 ## Details
 
 Blaze has two major parts:
