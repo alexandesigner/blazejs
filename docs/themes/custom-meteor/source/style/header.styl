@@ -1,5 +1,5 @@
 #header
-  font-family 'ProximaNova-Semibold'
+  font-family 'Source Sans Pro', sans-serif
 
 #top-nav
   height 30px
@@ -25,10 +25,10 @@
 
 #site-nav
   position relative
-  height 70px
+  height 65px
   background-color #fff
   border-bottom 1px solid #eee
-  padding 14px 30px
+  padding 14px 30px 14px 30px
   a, span, select
     vertical-align bottom
   .sub-title
@@ -37,12 +37,32 @@
     top 1px
   .logo
     img
-      height 50px
+      height 42px
       margin-bottom -20px
   .search-box
     position absolute
     right 30px
     top 20px
+
+.nav-group
+  position absolute
+  right 0
+  top 0
+  padding 0 20px
+  .active
+    border-bottom 2px solid #F37425
+    a
+      color #F37425!important
+  .nav-item
+    line-height 4rem
+    height 4rem
+    margin-right 20px
+    display inline-block
+    a
+      color #444
+      display block
+      &:hover
+        text-decoration underline
 
 #mobile-header
   position fixed

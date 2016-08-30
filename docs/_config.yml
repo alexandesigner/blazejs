@@ -4,9 +4,9 @@
 
 # Site
 title: Blaze Docs
-subtitle: Preview docs
+subtitle: Developers
 description:
-author:
+author: 
 language:
 timezone:
 versions:
@@ -20,11 +20,7 @@ content_root: source
 logo:
   desktop: /logo/logo.png
   mobile: /logo/icon.png
-nav_links:
-  blazejs.com: http://www.blazejs.com/
-  Blog: https://medium.com/blaze-js
-  GitHub: https://github.com/blazejs
-favicon: /logo/icon.png
+favicon: /logo/icon.ico
 
 # API keys
 apis:
@@ -83,7 +79,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: http://hexo.io/plugins/
 ## Themes: http://hexo.io/themes/
-theme: meteor
+theme: custom-meteor
 
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
