@@ -3,8 +3,8 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Blaze Docs
-subtitle: Developers
+title: BlazeJS
+subtitle: 
 description:
 author: 
 language:
@@ -15,12 +15,13 @@ sidebar_categories:
   null:
     - index
     - guide
-github_repo: blaze/docs
+    - docs
+github_repo: meteor/blaze
 content_root: source
 logo:
-  desktop: /logo/logo.png
-  mobile: /logo/icon.png
-favicon: /logo/icon.ico
+  desktop: logo/logo.png
+  mobile: logo/icon.png
+favicon: logo/icon.ico
 
 # API keys
 apis:
@@ -28,7 +29,7 @@ apis:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://docs.blazejs.com/
+url: https://meteor.github.io/blaze/
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -83,5 +84,5 @@ theme: custom-meteor
 
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
-deploy:
+deploy: 
   type:
